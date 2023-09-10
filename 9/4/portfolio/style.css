@@ -28,6 +28,7 @@
 }
 
 main {
+    overflow: hidden;
     margin: auto;
     border: solid;
     width: 25%;
@@ -66,13 +67,16 @@ li {
 #socials-list {
     list-style-type: none;
     width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #socials-list img {
     width: 3em;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
     main {
         width: 70%;
     }
