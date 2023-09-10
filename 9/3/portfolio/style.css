@@ -1,0 +1,36 @@
+body>section {
+    border: solid;
+    width: 20%;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#profession {
+    color: darkgray;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+p>em {
+    color: brown;
+
+}
+
+li {
+    float: left;
+    padding: 7pt;
+}
+
+#socials-list {
+    list-style-type: none;
+}
+
+#socials-list img {
+    width: 30pt;
+}
