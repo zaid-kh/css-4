@@ -71,3 +71,9 @@ li {
 #socials-list img {
     width: 3em;
 }
+
+@media only screen and (max-width: 650px) {
+    main {
+        width: 70%;
+    }
+}
