@@ -1,0 +1,73 @@
+.menu {
+    display: inline-block;
+    position: sticky;
+    background-color: cadetblue;
+    overflow: hidden;
+    width: 100%;
+}
+
+.menu a {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.menu a:hover {
+    background-color: rgb(50, 86, 88);
+}
+
+.menu a:active {
+    background-color: yellow;
+    color: grey;
+}
+
+.menu a.active {
+    background-color: darkgreen;
+}
+
+main {
+    margin: auto;
+    border: solid;
+    width: 25%;
+    background-color: bisque;
+}
+
+.headings {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+#profession {
+    color: darkgray;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+p>em {
+    color: brown;
+
+}
+
+li {
+    float: left;
+    padding: 1em;
+}
+
+#socials-list {
+    list-style-type: none;
+    width: auto;
+}
+
+#socials-list img {
+    width: 3em;
+}
