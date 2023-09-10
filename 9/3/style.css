@@ -1,3 +1,22 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.screen {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    padding: 1em;
+    margin-right: 1vw;
+}
+
+li {
+    padding: 1vh;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -7,5 +26,9 @@
     .container {
         display: flex;
         flex-direction: column;
+    }
+
+    aside {
+        display: none;
     }
 }
