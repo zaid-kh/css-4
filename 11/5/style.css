@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: darkslateblue;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navlist {
+    display: flex;
+
+}
+
+nav {
+    width: 100%;
+    background-color: lightgray;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:600px) {
+    /* implement when needed  */
+
+}
